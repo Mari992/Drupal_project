@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css?family=Aldrich");
+h1 {
+  color: orange; }
+
+body {
+  background-color: black; }
+
+.navbar-header {
+  background-color: #333;
+  color: white; }
+
+.navbar {
+  border-width: 0px;
+  margin-bottom: 0px; }
+
+.carousel-caption {
+  top: 40%; }
+  .carousel-caption h3 {
+    color: white;
+    font-family: "Aldrich";
+    font-size: 35px; }
+
+#navbar .container-fluid, #navbar .col-sm-12 {
+  padding: 0px; }
+
+.menu {
+  float: right;
+  font-family: "Aldrich";
+  margin-top: 10px; }
+  .menu a {
+    color: white;
+    font-size: 16px; }
+
+#navbar-collapse {
+  background-color: #333; }
+
+.navbar-collapse {
+  border-top: none; }
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+  background-color: black;
+  color: white; }
+
+.navbar-inverse .navbar-toggle {
+  border-color: black; }
+
+.navbar-toggle {
+  margin-right: 20px; }
+
+.logo {
+  margin-left: 15px;
+  width: 300px; }
+  .logo img {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px; }
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: white;
+  background-color: transparent; }
+
+#block-mainnavigation-menu {
+  display: none; }
+
+.slajd {
+  padding: 0px; }
+
+.main-container {
+  color: white; }
+  .main-container h2 {
+    color: white;
+    font-family: "Aldrich";
+    font-size: 35px; }
+  .main-container p {
+    font-size: 18px;
+    padding: 0px 20px; }
+
+#block-onama {
+  background-image: url("../img/about.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin-top: 70px; }
+
+.main-container {
+  padding: 0px;
+  background-image: url("../img/cover2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; }
+  .main-container h4 {
+    color: white; }
+
+.polje img {
+  margin: 0 auto; }
+.polje .sadrzaj {
+  display: none; }
+
+.polje2 img {
+  margin: 0 auto; }
+.polje2 .sadrzaj2 {
+  display: none; }
+
+.circle img {
+  border-radius: 50%;
+  border: 10px solid #e67e00;
+  cursor: pointer; }
+
+iframe {
+  width: 100%; }
+
+#block-uslugekompanje h3 {
+  color: white;
+  font-family: "Aldrich"; }
+
+.transparency {
+  background-color: black;
+  opacity: 0.6; }
+
+#block-onama .container {
+  margin: 0px; }
+
+.novosti_naslov {
+  margin-bottom: 50px;
+  margin-top: 70px; }
+  .novosti_naslov p {
+    font-family: "Aldrich"; }
+
+.news {
+  background-image: url("../img/news4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; }
+
+.post {
+  padding-top: 40px; }
+  .post img {
+    margin: 0 auto; }
+  .post .opis1, .post .opis2, .post .opis3 {
+    visibility: hidden; }
+
+.pagination li > a {
+  background-color: black;
+  color: white;
+  font-weight: normal;
+  border-radius: 5px;
+  border-width: 0px 1px; }
+.pagination .active > a {
+  background-color: #e67e00;
+  border-color: black;
+  color: black; }
+
+#block-views-block-frontpage-block-1 {
+  margin-top: 90px; }
+
+.mapa {
+  padding: 0px;
+  height: 100%; }
+  .mapa iframe .container {
+    padding: 0px; }
+
+#contact {
+  padding: 0px;
+  background-image: url("../img/contact3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; }
+  #contact .kontakt em {
+    font-family: "Aldrich"; }
+  #contact .kontakt a {
+    color: #e67e00;
+    font-weight: bold; }
+
+form {
+  padding: 20px 20px 0px; }
+  form #email, form #name, form textarea, form #btn_id {
+    color: black;
+    border: none;
+    border-radius: 5px; }
+  form #email, form #name {
+    margin: 10px 0px;
+    width: 100%;
+    padding: 5px 10px; }
+  form textarea {
+    width: 100%;
+    padding: 5px 10px; }
+  form .row1, form .row2 {
+    width: 50%;
+    text-align: center;
+    margin-left: 20px; }
+
+.row3 {
+  margin-left: 20px; }
+  .row3 #btn_id {
+    margin-bottom: 40px;
+    float: left;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 17px;
+    margin-left: 20px; }
+
+footer {
+  background-color: black; }
+  footer .ikonice {
+    text-align: center;
+    color: #e67e00; }
+    footer .ikonice i {
+      margin: 0px 10px;
+      cursor: pointer; }
+
+.footer {
+  margin-top: 0px;
+  border-top: none; }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  body.navbar-is-fixed-top {
+    margin-top: 50px; }
+
+  .carousel-caption h3 {
+    font-size: 26px; }
+
+  .logo {
+    width: 150px;
+    display: block;
+    position: absolute;
+    bottom: 200px;
+    margin-left: 0px; }
+
+  .menu {
+    float: left;
+    margin-left: 10px; }
+
+  .navbar-nav {
+    clear: right; }
+
+  .image-caption {
+    visibility: hidden;
+    display: none; }
+
+  .post .opis1, .post .opis2, .post .opis3 {
+    margin-top: 10px;
+    visibility: visible;
+    width: 100%;
+    text-align: center; }
+    .post .opis1 P, .post .opis2 P, .post .opis3 P {
+      margin: 0 auto;
+      color: #e67e00;
+      background-color: black;
+      width: 250px;
+      padding: 10px 0px; }
+
+  .pager-nav {
+    margin-top: 20px; }
+
+  .view-empty {
+    display: none; }
+
+  .navbar-nav {
+    clear: left; } }
+@media only screen and (min-device-width: 320px) and (max-device-width: 409px) {
+  .carousel-caption {
+    top: 20%; } }
+@media only screen and (min-device-width: 410px) and (max-device-width: 768px) {
+  .carousel-caption {
+    top: 30%; } }
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .post .image-caption {
+    display: none;
+    opacity: 0.8;
+    background: black;
+    color: #e67e00;
+    width: 250px;
+    bottom: 0px;
+    padding: 0px;
+    height: 30%;
+    vertical-align: middle;
+    position: absolute;
+    left: 250px; }
+    .post .image-caption p {
+      font-family: "Aldrich";
+      font-weight: bold;
+      font-size: 15px;
+      width: 250px;
+      margin: 0 auto; }
+  .post .opis1, .post .opis2, .post .opis3 {
+    display: none;
+    visibility: hidden; }
+
+  .logo {
+    width: 150px; } }
+@media (min-device-width: 992px) {
+  .post .image-caption {
+    left: 37px; }
+  .post .opis1, .post .opis2, .post .opis3 {
+    visibility: hidden; } }
+@media (min-device-width: 1024px) {
+  .post .image-caption {
+    left: 37px;
+    display: none;
+    opacity: 0.8;
+    background: black;
+    color: #e67e00;
+    width: 250px;
+    bottom: 26px;
+    padding: 0px;
+    height: 30%;
+    vertical-align: middle;
+    position: absolute; }
+    .post .image-caption p {
+      font-family: "Aldrich";
+      font-weight: bold;
+      font-size: 15px;
+      width: 250px;
+      margin: 0 auto; }
+
+  .opis1, .opis2, .opis3 {
+    visibility: hidden; }
+
+  .logo {
+    width: 250px; } }
+@media (min-device-width: 1200px) {
+  .post .image-caption {
+    left: 70px;
+    bottom: 25px; }
+
+  .logo {
+    width: 250px; } }
+
+/*# sourceMappingURL=style.css.map */

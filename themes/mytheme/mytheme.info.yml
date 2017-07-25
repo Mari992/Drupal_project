@@ -1,0 +1,31 @@
+core: 8.x
+type: theme
+base theme: bootstrap
+
+name: 'mytheme'
+description: 'Uses the Bootstrap framework LESS source files and must be compiled (not for beginners).'
+package: 'Bootstrap'
+
+regions:
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Top Bar'
+ 
+  content: 'Content'
+  
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  slider: 'Slider'
+
+libraries:
+  - 'mytheme/global-styling'
+  - 'mytheme/bootstrap-scripts'
+  - 'mytheme/fonts'
+  - 'mytheme/animate'
+  - 'mytheme/script'
+  - 'mytheme/kontaktforma'
+  - 'mytheme/smoothscroll'
+  - 'mytheme/ofset'
+
+  

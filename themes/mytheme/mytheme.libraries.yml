@@ -1,0 +1,61 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+
+      
+
+bootstrap-scripts:
+  js:
+    bootstrap/js/affix.js: {}
+    bootstrap/js/alert.js: {}
+    bootstrap/js/button.js: {}
+    bootstrap/js/carousel.js: {}
+    bootstrap/js/collapse.js: {}
+    bootstrap/js/dropdown.js: {}
+    bootstrap/js/modal.js: {}
+    bootstrap/js/tooltip.js: {}
+    bootstrap/js/popover.js: {}
+    bootstrap/js/scrollspy.js: {}
+    bootstrap/js/tab.js: {}
+    bootstrap/js/transition.js: {}
+
+fonts:
+  css:
+    theme:
+      'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css': {type: external}
+      
+animate:
+  css:
+    theme:
+      'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css': {type: external}
+
+script:
+  js:
+    js/main.js: {}
+  dependencies:
+    - core/jquery
+
+kontaktforma:
+  js:
+    js/forma.js: {}
+
+smoothscroll:
+  js:
+    js/scroll.js: {}
+  dependencies:
+    - core/jquery
+
+ofset:
+  js:
+    js/offset.js: {}
+ 
+
+
+ 
+
+
+
+
+
+
