@@ -49,6 +49,12 @@ smoothscroll:
 ofset:
   js:
     js/offset.js: {}
+
+ajaxm:
+  js:
+    js/ajax.js: {}
+  dependencies:
+    - core/jquery
  
 
 
